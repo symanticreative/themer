@@ -1,10 +1,10 @@
 <?php
 
-namespace Pvtl\VoyagerFrontend\Commands;
+namespace Symanticreative\Themer\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Artisan;
-use Pvtl\VoyagerFrontend\Http\Controllers\SearchController;
+use Symanticreative\Themer\Http\Controllers\SearchController;
 
 class GenerateSearchIndices extends Command
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Pvtl\VoyagerFrontend\Commands;
+namespace Symanticreative\Themer\Commands;
 
 use Illuminate\Console\Command;
 use Spatie\Sitemap\SitemapGenerator;

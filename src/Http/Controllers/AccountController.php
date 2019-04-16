@@ -1,6 +1,6 @@
 <?php
 
-namespace Pvtl\VoyagerFrontend\Http\Controllers;
+namespace Symanticreative\Themer\Http\Controllers;
 
 use Auth;
 use Illuminate\Http\Request;

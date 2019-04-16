@@ -3,7 +3,22 @@
   <component name="issues">
     <option name="index">
       <map>
-        <entry key="$PROJECT_DIR$/composer.json">
+        <entry key="$PROJECT_DIR$/config/scout.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/Commands/GenerateSearchIndices.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/Commands/GenerateSitemap.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/Providers/VoyagerFrontendServiceProvider.php">
           <value>
             <set />
           </value>

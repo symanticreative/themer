@@ -1,11 +1,11 @@
 <?php
 
-namespace Pvtl\VoyagerFrontend\Http\Controllers;
+namespace Symanticreative\Themer\Http\Controllers;
 
 use Pvtl\VoyagerPages\Page;
-use Pvtl\VoyagerFrontend\Helpers\Layouts;
-use Pvtl\VoyagerFrontend\Traits\Breadcrumbs;
-use Pvtl\VoyagerFrontend\Helpers\BladeCompiler;
+use Symanticreative\Themer\Helpers\Layouts;
+use Symanticreative\Themer\Traits\Breadcrumbs;
+use Symanticreative\Themer\Helpers\BladeCompiler;
 use Illuminate\Http\Request;
 
 class PageController extends \Pvtl\VoyagerPages\Http\Controllers\PageController

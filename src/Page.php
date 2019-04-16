@@ -3,7 +3,7 @@
 namespace Pvtl\VoyagerFrontend;
 
 use Laravel\Scout\Searchable;
-use Pvtl\VoyagerFrontend\Helpers\BladeCompiler;
+use Symanticreative\Themer\Helpers\BladeCompiler;
 
 class Page extends \Pvtl\VoyagerPages\Page
 {

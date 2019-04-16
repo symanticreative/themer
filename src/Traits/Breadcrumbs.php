@@ -1,6 +1,6 @@
 <?php
 
-namespace Pvtl\VoyagerFrontend\Traits;
+namespace Symanticreative\Themer\Traits;
 
 use Illuminate\Http\Request;
 use TCG\Voyager\Models\MenuItem;

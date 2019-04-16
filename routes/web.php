@@ -1,10 +1,10 @@
 <?php
 
-use Pvtl\VoyagerFrontend\Page;
+use Symanticreative\Themer\Page;
 use Illuminate\Support\Facades\Request;
 
-$accountController = '\Pvtl\VoyagerFrontend\Http\Controllers\AccountController';
-$searchController = '\Pvtl\VoyagerFrontend\Http\Controllers\SearchController';
+$accountController = '\Symanticreative\Themer\Http\Controllers\AccountController';
+$searchController = '\Symanticreative\Themer\Http\Controllers\SearchController';
 
 /**
  * Authentication
@@ -35,7 +35,7 @@ Route::group([
     'as' => 'voyager-frontend.pages.',
     'prefix' => 'admin/pages/',
     'middleware' => ['web', 'admin.user'],
-    'namespace' => '\Pvtl\VoyagerFrontend\Http\Controllers'
+    'namespace' => '\Symanticreative\Themer\Http\Controllers'
 ], function () {
     Route::post('layout/{id?}', ['uses' => "PageController@changeLayout", 'as' => 'layout']);
 });

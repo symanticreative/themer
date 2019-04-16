@@ -1,8 +1,8 @@
 <?php
 
-namespace Pvtl\VoyagerFrontend\Http\Controllers;
+namespace Symanticreative\Themer\Http\Controllers;
 
-use Pvtl\VoyagerFrontend\BlogPost;
+use Symanticreative\Themer\BlogPost;
 use Illuminate\Support\Carbon;
 
 class PostController extends \Pvtl\VoyagerBlog\Http\Controllers\PostController

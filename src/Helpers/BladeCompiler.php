@@ -1,6 +1,6 @@
 <?php
 
-namespace Pvtl\VoyagerFrontend\Helpers;
+namespace Symanticreative\Themer\Helpers;
 
 use Illuminate\Support\Facades\Blade;
 

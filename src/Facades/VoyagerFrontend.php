@@ -1,6 +1,6 @@
 <?php
 
-namespace Pvtl\VoyagerFrontend\Facades;
+namespace Symanticreative\Themer\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

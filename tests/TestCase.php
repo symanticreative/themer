@@ -1,6 +1,6 @@
 <?php
 
-namespace Pvtl\VoyagerFrontend\Test;
+namespace Symanticreative\Themer\Test;
 
 use Illuminated\Testing\TestingTools;
 use Orchestra\Testbench\TestCase as Orchestra;
@@ -8,7 +8,7 @@ use Orchestra\Testbench\TestCase as Orchestra;
 abstract class TestCase extends Orchestra
 {
     use TestingTools;
-    
+
     /**
      * @param \Illuminate\Foundation\Application $app
      *
@@ -17,19 +17,19 @@ abstract class TestCase extends Orchestra
     protected function getPackageProviders($app)
     {
         return [
-            \Pvtl\VoyagerFrontend\TestServiceProvider::class,
+            \Symanticreative\Themer\TestServiceProvider::class,
         ];
     }
 
     /**
      * @param  [type] $app [description]
-     * 
+     *
      * @return [type]      [description]
      */
     protected function getPackageAliases($app)
 	{
 	    return [
-	        'Test' => 'Pvtl\VoyagerFrontend\facades\VoyagerFrontend',
+	        'Test' => 'Symanticreative\Themer\facades\VoyagerFrontend',
 	    ];
 	}
 }

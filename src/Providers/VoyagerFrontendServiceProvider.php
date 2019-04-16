@@ -1,9 +1,9 @@
 <?php
 
-namespace Pvtl\VoyagerFrontend\Providers;
+namespace Symanticreative\Themer\Providers;
 
 use Illuminate\Http\Request;
-use Pvtl\VoyagerFrontend\Commands;
+use Symanticreative\Themer\Commands;
 use Illuminate\Pagination\Paginator;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\Facades\Event;
@@ -11,9 +11,9 @@ use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\ServiceProvider;
 use Laravel\Scout\Console\ImportCommand;
 use Illuminate\Console\Scheduling\Schedule;
-use Pvtl\VoyagerFrontend\Exceptions\Handler;
+use Symanticreative\Themer\Exceptions\Handler;
 use Illuminate\Contracts\Debug\ExceptionHandler;
-use Pvtl\VoyagerFrontend\Http\Controllers\PageController;
+use Symanticreative\Themer\Http\Controllers\PageController;
 
 class VoyagerFrontendServiceProvider extends ServiceProvider
 {

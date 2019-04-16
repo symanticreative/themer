@@ -1,6 +1,6 @@
 <?php
 
-namespace Pvtl\VoyagerFrontend\Http\Controllers;
+namespace Symanticreative\Themer\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller as BaseController;
@@ -35,7 +35,7 @@ class SearchController extends BaseController
                     ->first();
 
                 if ($dataType->name !== 'pages' && !empty($item->slug) && !empty($dataType->slug)) {
-                    
+
                     if ($dataType->name === 'blog_posts') {
                         $item->slug = 'blog/' . $item->slug;
                     } else {

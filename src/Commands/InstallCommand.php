@@ -1,8 +1,8 @@
 <?php
 
-namespace Pvtl\VoyagerFrontend\Commands;
+namespace Symanticreative\Themer\Commands;
 
-use Pvtl\VoyagerFrontend\Providers\VoyagerFrontendServiceProvider;
+use Symanticreative\Themer\Providers\VoyagerFrontendServiceProvider;
 use TCG\Voyager\Traits\Seedable;
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;

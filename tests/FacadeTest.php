@@ -1,8 +1,8 @@
 <?php
 
-namespace Pvtl\VoyagerFrontend\Test;
+namespace Symanticreative\Themer\Test;
 
-use Pvtl\VoyagerFrontend\facades\VoyagerFrontend;
+use Symanticreative\Themer\facades\VoyagerFrontend;
 
 class FacadeTest extends TestCase
 {

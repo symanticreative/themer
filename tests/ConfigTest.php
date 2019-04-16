@@ -1,6 +1,6 @@
 <?php
 
-namespace Pvtl\VoyagerFrontend\Test;
+namespace Symanticreative\Themer\Test;
 
 class ConfigTest extends TestCase
 {
