@@ -3,7 +3,17 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="$USER_HOME$/Sites/cms-test/composer.json">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/config/scout.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/BlogPost.php">
           <value>
             <set />
           </value>
@@ -14,6 +24,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/Commands/GenerateSitemap.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/Page.php">
           <value>
             <set />
           </value>

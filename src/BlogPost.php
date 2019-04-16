@@ -1,6 +1,6 @@
 <?php
 
-namespace Pvtl\VoyagerFrontend;
+namespace Symanticreative\Themer;
 
 use Laravel\Scout\Searchable;
 use Symanticreative\Themer\Helpers\BladeCompiler;
