@@ -1,0 +1,61 @@
+{
+    "name": "symanticreative/themer",
+    "description": "Frontend for Voyager",
+    "keywords": [
+        "laravel",
+        "voyager",
+        "frontend"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Symantic Creative",
+            "homepage": "http://symanticreative.com",
+            "email": "admin@symanticreative.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "pvtl/voyager-pages": "^0.2.9",
+        "pvtl/voyager-blog": "^0.2.7",
+        "tcg/voyager": "^1.1.8",
+        "spatie/laravel-sitemap": "~5.2.0",
+        "laravel/scout": "^7.0",
+        "teamtnt/laravel-scout-tntsearch-driver": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7",
+        "orchestra/testbench": "^3.4",
+        "illuminated/testing-tools": "^0.5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Symanticreative\\Themer\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Symanticreative\\Themer\\Test\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Symanticreative\\Themer\\Providers\\VoyagerFrontendServiceProvider"
+            ],
+            "aliases": {
+                "VoyagerFrontend": "Symanticreative\\Themer\\Facade"
+            }
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "post-package-install": [
+            "@php artisan voyager-frontend:install"
+        ],
+        "post-autoload-dump": [
+            "@php artisan vendor:publish --provider=Laravel\\Scout\\ScoutServiceProvider",
+            "@php artisan vendor:publish --provider=Spatie\\Sitemap\\SitemapServiceProvider --tag=config"
+        ]
+    }
+}
